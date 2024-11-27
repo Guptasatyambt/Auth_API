@@ -5,8 +5,8 @@ const router = express.Router();
 
 router.get('/',developer);
 router.get('/home',validation,commanAccess);
-router.get('/dashboard',authorizeRoles("admin"),adminAccess);
-router.post('/signin', handleregister);
+router.get('/dashboard',validation,authorizeRoles("admin"),adminAccess);
+router.post('/signup', handleregister);
 router.post('/login', handlelogin)
 router.get('/getinfo', validation, getinfo)
 
