@@ -43,7 +43,7 @@ https://auth-api-4lok.onrender.com/user/login (post)
     }
 }
 
-##Home
+## Home
 https://auth-api-4lok.onrender.com/user/home (get) //Every login email can access this page
 {
     "message": "This is user interface and may have limited permissions."
